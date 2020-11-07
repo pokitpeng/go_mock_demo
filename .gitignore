@@ -1,15 +1,14 @@
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+# Build
+**/*.exe
 
-# Test binary, built with `go test -c`
-*.test
+# venv
+**/vendor/
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+# Log
+**/*.log
 
-# Dependency directories (remove the comment below to include it)
-# vendor/
+# VSCode settings
+**/.vscode/
+
+# IDEA files
+**/.idea/
